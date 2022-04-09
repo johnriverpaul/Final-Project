@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #534340;
+}
+section {
+    height: 100vh;
+    width: 100vw;
+}
+.nav-bar{
+    display: flex;
+    padding: 1% 15%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BB9981;
+}
+.my-nickname {
+    font-family: 'Nanum Myeongjo', serif;
+}
+.nav-bar ul {
+    flex: 1;
+    text-align: right;
+}
+.nav-bar ul li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 8px 10px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.intro{
+    text-align: center;
+    display: flex;
+    /*padding: 8% 10%;*/
+}
+.my-pic img{
+    border-radius: 50%;
+}
+.brief-word{
+    padding-top: 10%;
+    margin: 45px;
+}
+.brief-word p{
+    text-align: left;
+    color: #ffffff;
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+}
+.intro div img {
+    width: 70%;
+    padding-top: 12%;
+}
+.ellipse{
+    background-color: #45597e;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
